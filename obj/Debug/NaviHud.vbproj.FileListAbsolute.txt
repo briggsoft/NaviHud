@@ -1,0 +1,25 @@
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\bin\Debug\NaviHud.exe
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\bin\Debug\NaviHud.pdb
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\bin\Debug\NaviHud.xml
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.Form1.resources
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.Resources.resources
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.vbproj.GenerateResource.Cache
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.exe
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.xml
+D:\Users\Rusty\AppData\Local\Temporary Projects\NaviHud\obj\Debug\NaviHud.pdb
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.exe
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.xml
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.pdb
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\bin\Debug\NaviHud.exe
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\bin\Debug\NaviHud.pdb
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\bin\Debug\NaviHud.xml
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.Form1.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.Resources.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.vbproj.GenerateResource.Cache
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.NR.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.soundboard.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.UDP_Flooder.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.Courier.resources
+D:\Users\Rusty\Documents\Visual Studio 2008\Projects\NaviHud\NaviHud\obj\Debug\NaviHud.Loading.resources

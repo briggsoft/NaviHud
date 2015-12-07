@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21EA61ED-6EC8-42BD-B1E9-7EC25BF640CC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NaviHud.My.MyApplication</StartupObject>
+    <RootNamespace>NaviHud</RootNamespace>
+    <AssemblyName>NaviHud</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NaviHud.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NaviHud.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm.Designer.vb">
+      <DependentUpon>Alarm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alarm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code editor.Designer.vb">
+      <DependentUpon>Code editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Code editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Courier.Designer.vb">
+      <DependentUpon>Courier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Courier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.vb">
+    </Compile>
+    <Compile Include="Main Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Menu.Designer.vb">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Media viewer.Designer.vb">
+      <DependentUpon>Media viewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Media viewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NR.Designer.vb">
+      <DependentUpon>NR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Planner.Designer.vb">
+      <DependentUpon>Planner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Planner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="soundboard.Designer.vb">
+      <DependentUpon>soundboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="soundboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System Properties.Designer.vb">
+      <DependentUpon>System Properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System Properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UDP Flooder.Designer.vb">
+      <DependentUpon>UDP Flooder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UDP Flooder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Courier.resx">
+      <DependentUpon>Courier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Menu.resx">
+      <DependentUpon>Main Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NR.resx">
+      <DependentUpon>NR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="soundboard.resx">
+      <DependentUpon>soundboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UDP Flooder.resx">
+      <DependentUpon>UDP Flooder.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
